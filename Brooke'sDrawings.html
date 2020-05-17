@@ -107,11 +107,16 @@
  <input type="text" id="userInput1"=>Who is this?</input>
 
  <script>
-  var submitLoop;
-for (i = 0; i < userInput.Value; i++) { 
-  text += cars[i] + "<br>";
+var submitLoop = 0;
+var asnwers = [userInput1, userInput2, userInput3, userInput4, userInput5, userInput6, userInput7, userInput8, 
+               userInput9, userInput10];
+numbers.forEach(answer());
+
+function answer(userInput1) {
+  submitLoop += userIput1;
+  document.getElementById("userInput1").innerHTML = submitLoop;
  {
-     function answer1()
+     function answer()
      {
          var i[userInput1] = document.getElementById("userInput1").value;
          if (userInput1 == "Scarlett Johansson" or "Scarlett Johanson")
@@ -136,7 +141,7 @@ for (i = 0; i < userInput.Value; i++) {
  <input type="text" id="userInput2"=>Who is this?</input>
  
  <script>
-     function answer2()
+     function answer()
      {
          var i[userInput2] = document.getElementById("userInput2").value;
          if (userInput2 == "Jen" or "Jennifer Anniston" or "Jennifer Aniston")
@@ -161,7 +166,7 @@ for (i = 0; i < userInput.Value; i++) {
  <input type="text" id="userInput"=><p> Who is this? </p> </input>
  
  <script>
-     function answer3()
+     function answer()
      {
          var i[userInput3] = document.getElementById("userInput").value;
          if (userInput == "Harry" or "Prince Harry")
